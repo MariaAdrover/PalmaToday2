@@ -14,9 +14,6 @@ export class LangBarComponent implements OnInit {
 
   constructor(private langSourceService: LangSourceService) {
     this.langSources = this.langSourceService.langSources;
-    for (let i = 0; i < this.langSources.length; i++) {
-      this.langs.push(this.langSources[i].lang);
-    }
   }
 
   ngOnInit(): void {}

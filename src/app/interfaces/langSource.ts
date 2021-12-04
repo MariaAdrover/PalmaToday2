@@ -1,4 +1,4 @@
 export interface LangSource {
   lang: string;
-  src: string[];
+  srcs: string[];
 }

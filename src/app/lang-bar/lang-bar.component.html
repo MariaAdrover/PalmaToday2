@@ -1,7 +1,6 @@
-<div *ngFor="let lang of langs; let i = index">
+<div *ngFor="let langSource of langSources;">
   <app-src-dropdown
-    [lang]="lang"
-    [sources]="langSources[i].src"
+    [lang]="langSource.lang"
+    [sources]="langSource.srcs"
   ></app-src-dropdown>
-  l
 </div>

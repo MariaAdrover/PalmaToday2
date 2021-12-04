@@ -6,10 +6,10 @@ import { LangSource } from '../interfaces/langSource';
 })
 export class LangSourceService {
   private _langSources: LangSource[] = [
-    { lang: 'ENGLISH', src: ['Source1', 'Source2', 'Source3'] },
-    { lang: 'CASTELLANO', src: ['Source4', 'Source5', 'Source6'] },
-    { lang: 'CATALÀ', src: ['Source7', 'Source8', 'Source9'] },
-    { lang: 'DEUSTCH', src: ['Source10', 'Source11'] },
+    { lang: 'ENGLISH', srcs: ['Source1', 'Source2', 'Source3'] },
+    { lang: 'CASTELLANO', srcs: ['Source4', 'Source5', 'Source6'] },
+    { lang: 'CATALÀ', srcs: ['Source7', 'Source8', 'Source9'] },
+    { lang: 'DEUSTCH', srcs: ['Source10', 'Source11'] },
   ];
 
   onChangeSource = new EventEmitter<any>();
